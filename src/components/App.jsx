@@ -11,10 +11,7 @@ function App() {
   }
 
   //Challenge #2
-  function getTimePerSec() {
-    setTimer(new Date());
-  }
-  setInterval(getTimePerSec, 1000);
+  setInterval(getTime, 1000);
 
   return (
     <div className="container">
